@@ -1,0 +1,233 @@
+section
+{
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+div
+{
+    width: 200px;
+    border: solid 1px;
+    height: 100px;
+    text-align: center;
+    align-content: center;
+}
+
+.div1>p::after
+{
+    content: '*';
+}
+
+.div2>p::before
+{
+    content: '*';
+}
+
+.div3>p::first-letter
+{
+    font-size: 200%;
+    color: #50b46e;
+    text-transform: uppercase;
+}
+
+.div4>p::first-line
+{
+    font-size: 200%;
+    color: #50b46e;
+    text-transform: uppercase;
+}
+
+::marker
+{
+    color: #50b46e;
+}
+
+.div6>p::selection
+{
+    background: #50b46e;
+    color: #f6eb5d;
+}
+
+.dov1>p:nth-child(2)
+{
+    color: #50b46e;
+}
+
+.dov2>p:nth-last-child(2)
+{
+    color: #50b46e;
+}
+
+.dov3>p:nth-last-of-type(2)
+{
+    color: #50b46e;
+}
+
+.dov4>p:nth-of-type(2)
+{
+    color: #50b46e;
+}
+
+.ind5>p:only-of-type
+{
+    color: #50b46e;
+}
+
+.ind5
+{
+    width: 200px;
+    height: 49px;
+}
+
+.ind5 p
+{
+    margin: 0;
+}
+
+.ind6>p:only-child
+{
+    color: #50b46e;
+}
+
+.ind6
+{
+    width: 200px;
+    height: 49px;
+}
+
+.ind6 p
+{
+    margin: 0;
+}
+
+.dov7>input:optional
+{
+    background-color: #f6eb5d;
+}
+
+.dov8>input:out-of-range
+{
+    border: 2px solid #50b46e;
+}
+
+.dov9>input:read-only
+{
+    color: #50b46e;
+}
+
+.dov10>input:read-write 
+{
+    background-color: #50b46e;
+}
+
+.dov11>input:required
+{
+    background: #f6eb5d;
+}
+
+:root
+{
+    background: whitesmoke;
+}
+
+:target
+{
+    background-color: #50b46e;
+    color: #f6eb5d;
+}
+
+.dov13>input:valid
+{
+    background-color: #50b46e;
+}
+
+.visitado:visited
+{
+    color: #f6eb5d;
+}
+
+.ativo:active
+{
+    color: #50b46e;
+}
+
+.dov16>input:checked
+{
+    width: 50px;
+    height: 50px;
+}
+
+.dov17>input:disabled
+{
+    background-color: #50b46e;
+}
+
+.dov18>p:empty
+{
+    background-color: #f6eb5d;
+    width: 200px;
+    height: 20px;
+}
+
+.dov19>input:enabled{
+    background-color: #50b46e;
+}
+
+.dov20>p:first-child
+{
+    background-color: #f6eb5d;
+}
+
+.dov21>p:first-of-type
+{
+    background: #50b46e;
+}
+
+.dov22>input:focus
+{
+    background-color: #f6eb5d;
+}
+
+.dov23>p:hover
+{
+    color: #50b46e;
+}
+
+.dov24>input:in-range
+{
+    border: 2px solid #f6eb5d;
+}
+
+.dov25>input:invalid
+{
+    border: 2px solid #50b46e;
+}
+
+.dov26>p:lang(it)
+{
+    background-color: #f6eb5d;
+}
+
+.dov27>p:last-child
+{
+    background: #50b46e;
+}
+
+.dov28>p:last-of-type
+{
+    background: #f6eb5d;
+}
+
+.dov29>a:link
+{
+    background-color: #50b46e;
+}
+
+.dov30 :not(p)
+{
+    color: #50b46e;
+}
